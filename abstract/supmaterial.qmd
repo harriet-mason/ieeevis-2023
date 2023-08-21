@@ -1,0 +1,16 @@
+---
+title: "Plotting Apples, Oranges, and Distributions Supplementary Material"
+---
+
+# Plotting 
+Gschwandtne et al. \cite{Gschwandtnei2016} compared six different visual encodings of the uncertainty of the start and end time of an interval. They compared three encodings of statistical uncertainty: a gradient, violin, and accumulated probability plot; and three encodings of bounded uncertainty: error bars, centered error bars, and ambiguation. One of their tasks asked participants to judge the average duration of an interval and the authors hypothesised that the depictions of statistical uncertainty (i.e. mass) would be best suited. 
+
+This hypothesis ignores that the key parameter of interest in this question, the average interval time, can be read directly off the centered error bars as the distance between the average start time and the average end time. The results of their paper confirm the taxonomy, as this plot had significantly lower error than the others.
+
+Gschwandtne et al. \cite{Gschwandtnei2016} compared six different visual encodings of the uncertainty of the start and end time of an interval. They compared three encodings of statistical uncertainty: a gradient, violin, and accumulated probability plot; and three encodings of bounded uncertainty: error bars, centered error bars, and ambiguation.
+
+They asked participants questions about the maximum and minimum start and end times, the maximum, minimum and average duration of the interval, and the probability that the interval had started or ended at a specific point in time.
+
+All six plots display the same distribution. The statistical uncertainty plots displayed the mass of the start/end time distributions. The error bar and the ambiguation displayed the maximum and minimum of both the start and end times (the parameters of the distribution), and the centered error bar additionally displayed the average start and end time. The three bounded uncertainty plots mapped their parameter to the x-axis, the violin and accumulated probability plots mapped the mass to the y-axis, and the gradient plot mapped the probability to the opacity.
+
+Since all the plots displayed the same distribution, the most important aspect of the taxonomy is the feature displayed. The research found that the maximum and minimum of the start and end times (as well at the interval that could be found immediately from the start and end times) were best identified by the plots that directly expressed those parameters. The average interval length was best depicted by the error bar plot (which depicted the average start and end time). This establishes that displaying the parameter directly related to your question will result in less inference error than a general purpose function.
